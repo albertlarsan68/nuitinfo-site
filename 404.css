@@ -1,0 +1,26 @@
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 0;
+}
+
+body {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#tetris {
+    box-shadow: 0 0 10px 2px lightcoral;
+    background-color: white;
+}
+
+#game-info {
+    text-align: center;
+    width: 200px;
+}
